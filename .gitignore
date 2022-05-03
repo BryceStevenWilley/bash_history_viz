@@ -1,7 +1,6 @@
 dist/**
 data/**
 *_hist.txt
-package-lock.json
 *.swp
 *venv/**
 
