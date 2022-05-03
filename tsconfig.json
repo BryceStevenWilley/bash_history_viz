@@ -4,10 +4,10 @@
     "module": "es6",
     "removeComments": true,
     "preserveConstEnums": true,
-    "outDir": "./dist/",
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
+    "noEmit": true,
     "noImplicitAny": true,
     "sourceMap": true
   }

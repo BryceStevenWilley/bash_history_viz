@@ -1,4 +1,3 @@
-import './style.css';
 import { handleFileSelect } from './parsing';
 
 function component() {
