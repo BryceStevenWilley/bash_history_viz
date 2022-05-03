@@ -1,0 +1,26 @@
+{
+  "name": "bash_history_viz",
+  "version": "0.0.1",
+  "description": "A data visualizer for bash commands output by `history`",
+  "comment_private": "TODO: takeout when you want to publish",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Bryce Willey",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "tsc-watch": "^5.0.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4"
+  }
+}
