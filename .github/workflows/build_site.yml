@@ -1,7 +1,9 @@
 name: Build the site using webpack
 
 on: 
-  push: main
+  push: 
+    branches:
+      - main
 
 jobs:
   build-site:
@@ -13,7 +15,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Install npm
-        uses: npm ci
+        run: npm ci
 
       - name: Build
         run: |
